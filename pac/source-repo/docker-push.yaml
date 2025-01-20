@@ -31,7 +31,6 @@ spec:
       value: '{{ values.gitopsSecretName }}'
   pipelineRef:
     name: docker-build-ai-rhdh-push-gitops
-
   workspaces:
     - name: git-auth
       secret:
