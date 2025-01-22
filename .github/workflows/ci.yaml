@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 20
       - name: tekton lint
-        run: npx @ibm/tekton-lint@latest
+        run: npx @ibm/tekton-lint@1.1.0
       - name: yaml format
         run: |
           curl -L -O https://github.com/google/yamlfmt/releases/download/v0.15.0/yamlfmt_0.15.0_Linux_x86_64.tar.gz
